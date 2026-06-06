@@ -1,6 +1,6 @@
 # Everything is Information: a byte-native, modality-agnostic substrate and the seed of a world model
 
-**Jinhyun Woo** (independent researcher, ggunio5782@gmail.com) · 2026 · *preliminary preprint*
+**Jinhyun Woo** (Independent Researcher) · ORCID [0009-0002-3273-1169](https://orcid.org/0009-0002-3273-1169) · ggunio5782@gmail.com · LinkedIn [/in/namuneup](https://www.linkedin.com/in/namuneup) · 2026 · *preliminary preprint*
 
 ## Abstract
 We present a single **byte-native, modality-agnostic** encoder/decoder that processes text, dialogue,

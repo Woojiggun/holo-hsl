@@ -61,9 +61,8 @@ Full measured results — baselines, comparisons, and per-technique works-verifi
 ## Author / contact / cite
 - **Jinhyun Woo** — Independent Researcher
 - ✉️ ggunio5782@gmail.com
-- 💼 LinkedIn: `TODO — add URL`
-- 🆔 ORCID: `TODO — create at orcid.org (free) and add`
-- 🐙 GitHub: `TODO` · 🤗 Hugging Face: `TODO`
+- 💼 LinkedIn: https://www.linkedin.com/in/namuneup
+- 🆔 ORCID: https://orcid.org/0009-0002-3273-1169
 
 Original independent work, created on own time and equipment; this timestamped public release
 establishes authorship and prior disclosure. Cite via `CITATION.cff` (or the Zenodo DOI once minted).
