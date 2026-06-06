@@ -31,9 +31,8 @@ Same tiny transformer body; only the input encoder differs. Discrimination acc:
 | synthetic smooth | 1.343 | 1.189 |
 | random (control) | 8.005 | 8.003 |
 | real speech (FSDD) | 4.046 | 3.907 |
-| real music (Commons) | 1.903 | 1.855 |
 | image (CIFAR-10 gray raster, bits/px) | 5.120 | 5.046 |
-→ **Takeaway is functional**: the *same* small byte encoder/decoder runs on text, audio, image — 4 modalities, one arch, no tokenizer. No superiority claim.
+→ **Takeaway is functional**: the *same* small byte encoder/decoder runs on smooth signals, real speech, and image (and text/video elsewhere) — one architecture, no tokenizer. No superiority claim.
 
 **B2. Cross-modal binding** (`run_crossmodal.py`) — one model on interleaved [image|audio|text]
 - TEXT bits/byte matched **0.024** vs mismatched **0.869**. Held-out instances: **0.038** vs **1.090**. Retrieval (img+aud→right word) ≫ chance.

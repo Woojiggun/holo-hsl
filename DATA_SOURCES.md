@@ -43,7 +43,10 @@ Used for the chat-turn training. All **non-commercial / research-only**; the ass
 | source | license | attribution |
 |---|---|---|
 | **FSDD — Free Spoken Digit Dataset** (`Jakobovski/free-spoken-digit-dataset`) | **CC BY-SA 4.0** | FSDD contributors |
-| **Classical music sample** (pre-decoded `.npy`) | Wikimedia Commons — public-domain / CC recording | *confirm exact track/performer for final attribution* |
+
+*(An early test also used a classical-music sample from Wikimedia Commons, but its exact track was not
+individually recorded; it is **excluded** from the released results. The audio modality is represented
+by FSDD speech, which is fully attributed.)*
 
 ## 5. Video (frames + audio + ASR captions → tri-modal byte windows)
 | source | license | attribution |
