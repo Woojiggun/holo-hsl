@@ -1,0 +1,26 @@
+# weights / logs / data / artifacts — never publish
+*.pt
+*.ckpt
+checkpoints/
+logs/
+runs/
+dream_out/
+*.wav
+*.mp4
+*.gif
+*.png
+universe_assets.json
+
+# data (research-only; not redistributed)
+*.jsonl
+data/
+holo_v6_data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# NEVER commit the real encoder/codec (only the stubs in holo/ are public)
+# (the proprietary originals live outside this release folder)
