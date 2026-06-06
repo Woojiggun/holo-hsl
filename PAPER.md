@@ -59,6 +59,14 @@ Next-byte prediction over a modality-unified change-rate stream is world-modelin
 emergent geometry is a candidate latent state-space. Adding generative dynamics (e.g., diffusion-based
 imagination) and action-conditioning is the natural next step — left as future work and as an invitation.
 
+## Acknowledgements
+Designed, directed, and "vibe-coded" by the author (sole author; all decisions and measurements are the
+author's). Built with AI collaborators, human-directed throughout: **Claude** (Anthropic) and **GPT**
+(OpenAI) for code implementation, **Gemini** (Google) for visualization. Conceptual inspiration:
+Buddhist thought (emptiness/0, impermanence as change), the Genesis creation order (word → light → world),
+Wittgenstein (meaning as use), Pythagoras (relation & number), Feynman (paths and complex phase), and
+*Project Hail Mary* (A. Weir) — building a shared language from fundamental patterns, not vocabulary.
+
 ## Availability
 Open repository (architecture, training, multimodal pipeline, generation, probes, results) under
 Apache-2.0; the encoder/codec substrate is withheld and accessed via API. © 2026 Jinhyun Woo.

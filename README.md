@@ -73,3 +73,19 @@ Original independent work, created on own time and equipment; this timestamped p
 establishes authorship and prior disclosure. Cite via `CITATION.cff` (or the Zenodo DOI once minted).
 See `LICENSE.md` (open code Apache-2.0; encoder withheld; weights research/non-commercial).
 The proof, the scale, and the safety — over to the experts.
+
+## Credits
+- **Design, direction & "vibe-coding":** Jinhyun Woo (Woojiggun) — sole author; all decisions, design, and measurements are the author's.
+- **Built with AI collaborators** (human-directed throughout):
+  - **Claude** (Anthropic) — code implementation
+  - **GPT** (OpenAI) — code implementation
+  - **Gemini** (Google) — visualization
+
+*Note: formal venues typically list only human authors and acknowledge AI tools in Acknowledgements;
+listed here as credits in that spirit.*
+
+## Inspiration
+Buddhist thought (emptiness/0, impermanence as change) · the Genesis creation order (word → light → world) ·
+Wittgenstein (meaning as use; "everything is language" → information) · Pythagoras (relation & number;
+radius as norm) · Feynman (paths, complex phase) · *Project Hail Mary* (Andy Weir) — building a shared
+language from fundamental patterns rather than vocabulary.
