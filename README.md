@@ -16,6 +16,11 @@ interleaved stream. Founding intuition: *"everything is information — a fluctu
 The substrate anchors that with two endpoints: **0** = an origin enabling lossless reconstruction, and
 **1** = a learned **closure** signal ("this is the end") the model can predict.
 
+**Unifying principle.** Modalities are bridged not by tokens but by **change** — the *rate of change* of a
+signal, and the *rate of change of that change* (first- and second-order). Bytes from text, audio, image,
+or video all speak this single language of change, so one substrate fits them all. *(This is the
+principle; the exact, invertible feature recipe is withheld — see "Encoder access" below.)*
+
 ## What's measured (reported as-is; raw is a comparison arm, no superiority claim)
 | finding | result |
 |---|---|
