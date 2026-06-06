@@ -54,7 +54,18 @@ source/license/attribution: **`DATA_SOURCES.md`**. Because several dialogue sour
 the corpus mixes CC BY-SA / ODC-By, **any trained weights are research / non-commercial only** and must
 carry attribution + share-alike where applicable.
 
-## Author / cite
-**Jinhyun Woo** — independent researcher — ggunio5782@gmail.com. Original independent work.
-See `LICENSE.md` (open code Apache-2.0; encoder withheld). A short writeup is on Zenodo (see `PAPER.md`).
-If this is useful, attribution is appreciated. The proof, the scale, and the safety — over to the experts.
+## Evidence
+Full measured results — baselines, comparisons, and per-technique works-verification, with the
+**"works-proof, not superiority"** framing — are in **`RESULTS.md`**. Data attribution: **`DATA_SOURCES.md`**.
+
+## Author / contact / cite
+- **Jinhyun Woo** — Independent Researcher
+- ✉️ ggunio5782@gmail.com
+- 💼 LinkedIn: `TODO — add URL`
+- 🆔 ORCID: `TODO — create at orcid.org (free) and add`
+- 🐙 GitHub: `TODO` · 🤗 Hugging Face: `TODO`
+
+Original independent work, created on own time and equipment; this timestamped public release
+establishes authorship and prior disclosure. Cite via `CITATION.cff` (or the Zenodo DOI once minted).
+See `LICENSE.md` (open code Apache-2.0; encoder withheld; weights research/non-commercial).
+The proof, the scale, and the safety — over to the experts.

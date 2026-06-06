@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "HoLo / HSL: a byte-native, modality-agnostic substrate (encoder withheld)"
+authors:
+  - family-names: "Woo"
+    given-names: "Jinhyun"
+    email: "ggunio5782@gmail.com"
+    affiliation: "Independent Researcher"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add your ORCID (free, orcid.org)
+date-released: 2026-06-06
+version: "0.1.0"
+license: "Apache-2.0"
+repository-code: "https://github.com/REPLACE_ME/holo-hsl"   # TODO: set after creating the repo
+keywords:
+  - byte-level
+  - modality-agnostic
+  - multimodal
+  - tokenizer-free
+  - world-model
+abstract: >
+  A single byte-native encoder/decoder that processes text, dialogue, audio, image, and short video
+  with one architecture and no per-modality tokenizer. An amateur, single-GPU proof of concept;
+  a possibility/works demonstration, not a superiority claim. The byte->signal encoder/codec
+  substrate is withheld (proprietary); all else (architecture, training, multimodal, probes,
+  results) is open under Apache-2.0.
