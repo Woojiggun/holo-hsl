@@ -48,6 +48,12 @@ Toy scale, single seed, 8-bit modalities, tiny models on one 4070. Margins are s
 by simplicity. Generation is "fluent-shaped babble," not coherent content. This demonstrates *mechanism
 and possibility*, not competitiveness.
 
+## Data & attribution
+All training data is public and **not redistributed here** (scripts fetch from original hosts). Full
+source/license/attribution: **`DATA_SOURCES.md`**. Because several dialogue sources are CC BY-NC and
+the corpus mixes CC BY-SA / ODC-By, **any trained weights are research / non-commercial only** and must
+carry attribution + share-alike where applicable.
+
 ## Author / cite
 **Jinhyun Woo** — independent researcher — ggunio5782@gmail.com. Original independent work.
 See `LICENSE.md` (open code Apache-2.0; encoder withheld). A short writeup is on Zenodo (see `PAPER.md`).
