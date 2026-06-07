@@ -8,6 +8,8 @@ and makes **no performance-superiority claim**. The claim is narrower and, I thi
 *the possibility looks real, it runs, and the numbers are reported as-is.* Proving it at scale,
 robustly, and safely is for people with the resources. — Jinhyun Woo
 
+**Links:** [▶ Live demo](https://holo-demo-p5txmh4dda-as.a.run.app) · [🤗 HF Space](https://huggingface.co/spaces/ggunio/holo-demo-space) · [📄 Paper (Zenodo)](https://doi.org/10.5281/zenodo.20581805) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20581805.svg)](https://doi.org/10.5281/zenodo.20581805)
+
 ## The idea
 Train AI a little like a baby: raw, unlabeled, multisensory streams, no pre-imposed symbols. Everything
 becomes **bytes**, and a single **modality-agnostic feature substrate** turns bytes into a compact
