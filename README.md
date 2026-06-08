@@ -1,5 +1,8 @@
 # HoLo / HSL — a byte-native, modality-agnostic substrate
 
+> 🇰🇷 이 프로젝트는 개인 시간에 독립적으로 연구·공개한 오픈 연구 산출물입니다.
+> 🇬🇧 This is an independent, open research project — researched and released on personal time.
+
 *One small byte-native encoder/decoder that processes text, dialogue, audio, image, and video with a
 single architecture — no per-modality tokenizer. An amateur, single-GPU (RTX 4070) proof of concept.*
 
