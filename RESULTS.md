@@ -6,7 +6,8 @@
 > 8-bit, on tiny models on one RTX 4070. Several results are explicit **NULLs / parities**, reported
 > honestly. Nothing here says "HSL beats X." It says "this is buildable, and here is what we measured."
 
-Each result lists the script that produced it. Reproduction needs the withheld encoder (see DATA_SOURCES / README).
+Each result lists the script that produced it. The encoder is now public — reproduce with
+`pip install hsl-embedding` ([github.com/Woojiggun/hsl-embedding](https://github.com/Woojiggun/hsl-embedding)); see README.
 
 ---
 

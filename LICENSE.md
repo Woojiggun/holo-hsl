@@ -10,11 +10,13 @@ All code, documentation, and results in this repository **except** the withheld 
 redistribute them, including commercially, provided you retain attribution and this notice.
 (Drop the full Apache-2.0 text into `LICENSE-APACHE` for a formal release.)
 
-## Withheld components — proprietary (NOT included)
-The **byte→signal encoder** (`hsl_signal_encoder`) and **lossless codec** (`hsl_codec`) — the core
-feature substrate — are **proprietary and NOT included** in this release. The files present are
-non-functional stubs. The exact feature recipe is withheld. Access the encoder via the HSL Encoder
-API (see README). No license is granted to the withheld substrate.
+## Feature substrate — now open source under MIT (since 2026-06-10)
+The **byte→signal encoder** and **lossless codec** — the core feature substrate, withheld in the
+initial release — have since been **fully open-sourced under the MIT License** as
+[`hsl-embedding`](https://github.com/Woojiggun/hsl-embedding)
+([PyPI](https://pypi.org/project/hsl-embedding/)). The substrate is governed by that package's MIT
+license (© 2026 Jinhyun Woo — attribution required). The stub files present in this repository
+predate the release and remain non-functional placeholders; use the package instead.
 
 ## Trained weights & dataset
 Any released model weights and the POC dataset derivatives are **research / non-commercial use only**.

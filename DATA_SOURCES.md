@@ -5,7 +5,8 @@ redistributed in this repository** — the code downloads from the original host
 attribution and license status for every source.
 
 ## ⚖️ License summary (read first)
-- **Released CODE** (this repo, minus the withheld encoder): Apache-2.0.
+- **Released CODE** (this repo): Apache-2.0. The byte→signal encoder is open-sourced separately as
+  [`hsl-embedding`](https://github.com/Woojiggun/hsl-embedding) (MIT).
 - **Released model weights / any trained artifact**: **research / NON-COMMERCIAL only.** Several training
   sources are CC BY-NC / NC, so derivatives (including weights) inherit non-commercial restriction.
 - **Attribution required** (ODC-By, CC BY, CC BY-SA, CC BY-NC*). **Share-alike** applies to CC BY-SA

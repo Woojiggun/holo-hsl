@@ -2,6 +2,12 @@
 
 **Jinhyun Woo** (Independent Researcher) · ORCID [0009-0002-3273-1169](https://orcid.org/0009-0002-3273-1169) · ggunio5782@gmail.com · LinkedIn [/in/namuneup](https://www.linkedin.com/in/namuneup) · 2026 · *preliminary preprint*
 
+> **Update (2026-06-10).** The byte→signal feature substrate described below as "recipe withheld" has
+> since been **fully open-sourced** (MIT): [`hsl-embedding`](https://github.com/Woojiggun/hsl-embedding)
+> on GitHub / [PyPI](https://pypi.org/project/hsl-embedding/) — exact formulas, lossless codec, tests,
+> tensor/GPU path, and capacity-matched ablation controls. The paper text below is preserved as
+> originally written.
+
 ## Abstract
 We present a single **byte-native, modality-agnostic** encoder/decoder that processes text, dialogue,
 audio, image, and short video with one architecture and **no per-modality tokenizer**. Built and trained

@@ -24,7 +24,8 @@ The substrate anchors that with two endpoints: **0** = an origin enabling lossle
 **Unifying principle.** Modalities are bridged not by tokens but by **change** — the *rate of change* of a
 signal, and the *rate of change of that change* (first- and second-order). Bytes from text, audio, image,
 or video all speak this single language of change, so one substrate fits them all. *(This is the
-principle; the exact, invertible feature recipe is withheld — see "Encoder access" below.)*
+principle; the exact, invertible feature recipe is **fully open-sourced** as
+[`hsl-embedding`](https://github.com/Woojiggun/hsl-embedding) — see "Encoder" below.)*
 
 ## What's measured (reported as-is; raw is a comparison arm, no superiority claim)
 | finding | result |
@@ -46,12 +47,20 @@ principle; the exact, invertible feature recipe is withheld — see "Encoder acc
 - All of the above — model, training, multimodal pipeline, generation, interactive 3D probe — is in
   this repo and runs on **any** byte→feature map of width `FEAT_DIM`.
 
-## 🔒 Encoder access (the one withheld piece)
-The **byte→signal feature substrate** (`hsl_signal_encoder`, `hsl_codec`) — the core IP — is **not
-included**; the files here are non-functional stubs. It is an exact, invertible map from bytes to a
-compact feature vector combining **bit-level, change-rate, spectral, and complex-phase** components.
-To reproduce with the original substrate, use the **HSL Encoder API** (contact the author), or drop in
-your own `byte → [L, FEAT_DIM]` feature extractor — the rest of the repo works either way.
+## 🔓 Encoder — now fully public (since 2026-06-10)
+The **byte→signal feature substrate** — formerly withheld — is now **fully open-sourced under MIT**
+as [`hsl-embedding`](https://github.com/Woojiggun/hsl-embedding)
+([PyPI](https://pypi.org/project/hsl-embedding/) · [live demo](https://huggingface.co/spaces/ggunio/hsl-embedding-demo)):
+the exact, invertible map from bytes to a 27-D signal vector (change-rate Δ ≡ Gray code, Δ², boundary,
+exact complex rFFT, phase), grounded in a lossless codec (`decode(encode(x)) == x`), with tests,
+a batched tensor/GPU path, and capacity-matched **ablation controls** (`hsl_embedding.ablation`).
+
+```bash
+pip install hsl-embedding        # import hsl_embedding as hsl;  feats, phase = hsl.embed(raw_bytes)
+```
+
+The stubs in this repo predate the release; replace them with the package (`byte → [L, 27]`), or drop
+in your own `byte → [L, FEAT_DIM]` extractor — the rest of the repo works either way.
 
 ## Honest limits
 Toy scale, single seed, 8-bit modalities, tiny models on one 4070. Margins are small and partly inflated
@@ -76,7 +85,8 @@ Full measured results — baselines, comparisons, and per-technique works-verifi
 
 Original independent work, created on own time and equipment; this timestamped public release
 establishes authorship and prior disclosure. Cite via `CITATION.cff` (or the Zenodo DOI once minted).
-See `LICENSE.md` (open code Apache-2.0; encoder withheld; weights research/non-commercial).
+See `LICENSE.md` (open code Apache-2.0; encoder open-sourced under MIT as
+[`hsl-embedding`](https://github.com/Woojiggun/hsl-embedding); weights research/non-commercial).
 The proof, the scale, and the safety — over to the experts.
 
 ## Credits
